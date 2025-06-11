@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(135deg, #b3e5fc, #2196f3); /* Degradado celeste a azul */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+a:hover {
+  background-color: #1565c0;
+  transform: scale(1.03);
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #2196f3;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+p a {
+  margin-top: 10px;
+  background-color: #258eb8; /* Verde para PDF */
+}
+
+p a:hover {
+  background-color: #4557ff;
+}
